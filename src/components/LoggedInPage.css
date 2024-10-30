@@ -1,0 +1,138 @@
+body{
+    background-color:#717172;
+}
+
+.loggedInHeader{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+    height: 50px;
+    width: 101%;
+    padding: 5px 0px;
+    margin-top: -8px !important;
+    margin-left: -8px !important;
+    /* margin-right: -1px !important; */
+}
+
+.loggedInh1{
+    margin-left: 10px;
+}
+
+.loggedInh2{
+    font-size: larger;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+.logout{
+    color:aliceblue;
+    background-color:#19458D;
+    border: none;
+    border-radius: 3px;
+    height: 23px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.preview{
+    background-color: #F3F3F3;
+    color: #3D3D3D;
+    margin-left: 0px !important;
+    margin-right: -8px !important;
+    border-radius: 1px;
+    padding: 20px;
+
+}
+
+.markdown{
+    margin-left: -4px !important;
+    background-color: #bab9b9;
+}
+
+.notes{
+    width: 250px;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    height: 150px;
+    overflow: auto;
+  }
+  
+  .container{  
+    display: grid;
+    margin-left: 100px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;  
+  }
+
+  
+
+  .edit{
+    
+    background-color:black;
+    color: whitesmoke;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+
+  .delete{
+    
+    background-color:black;
+    color: whitesmoke;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    
+  }
+
+  /* .container {
+    display: flex;
+    flex-direction: column;
+  } */
+  
+  .notes {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .markdownAndButtons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .markdownContent {
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content:space-evenly; /* Align buttons to the right */
+  }
+  
+  .delete {
+    
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .save{
+    margin-left: 35%;
+    color:aliceblue;
+    background-color:#19458D;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 25%;
+    cursor: pointer;
+    font-size: larger;
+    border-radius: 5px;
+  }
+  

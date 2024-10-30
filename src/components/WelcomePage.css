@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.welcomeImage{
+    width: 100%;
+    height:345px;
+}
+
+@media screen and (max-width: 768px) {
+    .welcomeImage {
+        height: auto; 
+    }
+}
+
+.welcomeHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.welcomeButtons{
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .welcomeHeader {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    .welcomeButtons {
+        margin-right: 0; 
+        margin-top: 10px; 
+    }
+}
+
+
+.welcomeLogin{
+    padding: 8px;
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 80px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: #FFF;
+}
+
+@media screen and (max-width: 768px) {
+    .welcomeLogin {
+        width: 100%; 
+        margin-left: 0; 
+        margin-bottom: 15px;
+    }
+}
+
+.welcomeLogin:hover{
+    text-decoration: underline;
+}
+
+.content{
+    margin-top: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #FFF;
+}
+
+.contentPara{
+    font-size: larger;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        line-height: 30px; 
+        font-size: medium;
+    }
+
+    .contentPara {
+        font-size: small; 
+    }
+}
+
+.premiumFeatures{
+    background-color: aliceblue;
+}
+
+.premiumFeaturesHeading{
+    padding-top: 40px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 40px;
+    background-color: aliceblue;
+    margin-bottom: 40px;
+}
+
+.collabContainer{
+    background-color: rgb(28, 27, 27);
+    color: #FFF;
+    padding: 30px;
+    display: flex;
+    border-radius: 15px;
+    justify-content: space-around;
+    width: 1100px;
+    margin-left: 120px;
+}
+
+@media screen and (max-width: 768px) {
+    .collabContainer {
+        flex-direction: column; 
+        align-items: center; 
+        width: 100%; 
+        max-width: 100%; 
+        margin: 0; 
+        width: 100%; 
+        max-width: 280px; 
+        margin: 15px; 
+    }
+}
+
+.collabImage{
+    width: 300px;
+    border-radius: 5px;
+}
+
+.collabPara{
+    width: 600px;
+    font-size: large;
+    line-height: 25px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .collabImage {
+        width: 100%; 
+        max-width: 100%; 
+    }
+
+    .collabPara {
+        width: 100%; 
+        max-width: none; 
+    }
+}
+
+.productivityContainer{
+    margin-top: 50px;
+    background-color: rgb(22, 22, 22);
+    color: #FFF;
+    padding: 30px;
+    display: flex;
+    border-radius: 15px;
+    justify-content: space-around;
+    width: 1100px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .productivityContainer {
+        flex-direction: column;
+        align-items: center;
+        width: 100%; 
+        max-width: 280px; 
+        margin: 15px; 
+    }
+}
+
+.WhyMarkdownContainer{
+    padding: 50px;
+    background-color: darkgrey;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .WhyMarkdownContainer {
+        padding: 30px; 
+    }
+}
+
+.whyMarkdownPara{
+    padding: 20px;
+    font-size: large;
+}
+
+.whyMarkDownContainerBox{
+    display: flex;
+    font-size: 25px;
+    padding: 10px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .whyMarkdownPara {
+        padding: 10px; 
+        font-size: medium; 
+    }
+
+    .whyMarkDownContainerBox {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px; 
+        padding: 5px; 
+    }
+}
+
+.whyMarkDownContainer{
+    background-color: azure;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .whyMarkDownContainer {
+        width: 100%; 
+        max-width: 400px; 
+        margin-left: 0;    
+        margin-top: 15px;
+    }
+}
+
+.developerContent{
+    margin-top: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #FFF;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .developerContent {
+        line-height: 30px; 
+        font-size:small;
+    }
+}
+
+.footer{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: black;
+    color: #FFF;
+    height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        
+        text-align: center; 
+    }
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
